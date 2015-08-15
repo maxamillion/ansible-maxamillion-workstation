@@ -1,0 +1,40 @@
+- name: Install package list - i3
+  dnf: pkg={{item}} state=installed
+  with_items:
+    - i3
+    - i3-ipc
+    - i3lock
+    - i3status
+    - dmenu
+    - dunst
+    - nitrogen
+    - surf
+    - thunderbird
+    - firefox
+    - midori
+    - camorama
+    - shotwell
+    - parole
+    - evince
+    - eom
+    - arandr
+    - scrot
+    - ranger
+    - gnome-keyring
+    - gnome-keyring-pam
+    - NetworkManager
+    - NetworkManager-tui
+    - NetworkManager-vpnc
+    - NetworkManager-vpnc-gnome
+    - pidgin
+    - geany
+    - geany-plugins-markdown
+    - geany-plugins-autoclose
+    - geany-plugins-defineformat
+    - geany-plugins-scope
+
+- name: Install MATE for use with i3
+  dnf: pkg={{item}} state=installed
+  with_items:
+    - "@mate-desktop-environment"
+    - "@mate-applications"

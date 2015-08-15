@@ -1,0 +1,4 @@
+- name: Install package list
+  dnf: pkg=$item state=removed
+  with_items:
+    - rhythmbox

@@ -1,0 +1,15 @@
+- name: Verify powertop is installed
+  dnf: pkg={{item}} state=installed
+  with_items:
+    - powertop
+
+- name: Install systemd unit for powertop autotune
+  copy:
+    src: files/powertop-autotune.service
+    dest: /etc/systemd/system/powertop-autotune.service
+
+- name: Start and enable powertop-autotune.service
+  service:
+    name: powertop-autotune
+    state: started
+    enabled: yes

@@ -1,0 +1,5 @@
+- name: Install package list
+  dnf: pkg={{item}} state=installed
+  with_items:
+    - "@fedora-packager"
+    - "@virtualization"
