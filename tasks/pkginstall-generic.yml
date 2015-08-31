@@ -211,6 +211,8 @@
     - pykickstart
 #    - python-kickstart
 #    - python-productmd
+    - python-docs
+    - python-docs-info
     - python-rpmfluff
     - python-bottle
     - python-click
@@ -244,6 +246,7 @@
     - python-requests
     - pyside-tools
     - python3
+    - python3-docs
     - python3-virtualenv
 #    - python3-kickstart
 #    - python3-productmd
