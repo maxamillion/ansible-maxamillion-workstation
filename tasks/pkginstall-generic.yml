@@ -383,6 +383,7 @@
     - lynx
     - rolekit
     - heimdall
+    - conntrack-tools
 
 # Packages that should always be installed on a Fedora machine
 - name: Package install - rpmmacros
