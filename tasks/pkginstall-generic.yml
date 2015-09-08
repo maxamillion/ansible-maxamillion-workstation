@@ -388,6 +388,9 @@
     - conntrack-tools
     - tunir
     - sigul
+    - tlp
+    - tlp-rdw
+    - smartmontools
 
 # Packages that should always be installed on a Fedora machine
 - name: Package install - rpmmacros
