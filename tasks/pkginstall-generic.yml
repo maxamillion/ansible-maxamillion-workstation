@@ -391,6 +391,7 @@
     - tlp
     - tlp-rdw
     - smartmontools
+    - meld
 
 # Packages that should always be installed on a Fedora machine
 - name: Package install - rpmmacros
