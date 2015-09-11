@@ -392,6 +392,8 @@
     - tlp-rdw
     - smartmontools
     - meld
+    - swig
+    - swig-doc
 
 # Packages that should always be installed on a Fedora machine
 - name: Package install - rpmmacros
