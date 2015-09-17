@@ -245,6 +245,7 @@
     - python-mechanize
     - python-clientform
     - python-requests
+    - python-pygments
     - pyside-tools
     - python3
     - python3-django
@@ -269,6 +270,7 @@
     - python3-ipython
     - python3-ipython-gui
     - python3-ipython-sphinx
+    - python3-pygments
     - xfsdump
     - xfsprogs
     - libguestfs
