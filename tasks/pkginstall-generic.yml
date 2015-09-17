@@ -278,6 +278,7 @@
     - libguestfs-tools-c
     - libguestfs-xfs
     - pkgwat
+    - fedfind
     #- yum-plugin-security # Merged into mainline yum in F19
     #- yum-plugin-fastestmirror # Switch to dnf Fedora 22/Rawhide
     - autoconf
