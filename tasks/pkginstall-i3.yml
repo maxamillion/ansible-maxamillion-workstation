@@ -26,6 +26,8 @@
     - NetworkManager-tui
     - NetworkManager-vpnc
     - NetworkManager-vpnc-gnome
+    - NetworkManager-openvpn
+    - NetworkManager-openvpn-gnome
     - pidgin
     - geany
     - geany-plugins-markdown
