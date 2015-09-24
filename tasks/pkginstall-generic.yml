@@ -92,6 +92,7 @@
     - rpmreaper
     - rpm-compare-req
     - rpmconf
+    - rpmgrill
     - mock
     - golang
 #    - golang-vim
