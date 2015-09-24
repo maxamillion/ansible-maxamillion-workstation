@@ -398,6 +398,7 @@
     - swig
     - swig-doc
     - dcfldd
+    - fwupd
 
 # Packages that should always be installed on a Fedora machine
 - name: Package install - rpmmacros
