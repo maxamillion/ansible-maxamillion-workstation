@@ -224,6 +224,8 @@
     - python-cffi-doc
     - python-pip
     - python-pep8
+    - python-flake8
+    - python-autopep8
     - python-epdb
     - python-ipython
     - python-ipython-gui
@@ -267,6 +269,8 @@
     - python3-pyflakes
     - python3-pip
     - python3-pep8
+    - python3-flake8
+    - python3-autopep8
     - python3-sphinx
     - python3-ipython
     - python3-ipython-gui
