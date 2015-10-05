@@ -97,7 +97,6 @@
     - golang
 #    - golang-vim
     - gotags
-    - golang-vet
     - golang-gotype
     - golang-godoc
     - perl
