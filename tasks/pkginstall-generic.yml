@@ -405,6 +405,13 @@
     - fwupd
     - fwupdate
     - rng-tools
+    - kobo
+    - kobo-admin
+    - kobo-client
+    - kobo-django
+    - kobo-hub
+    - kobo-rpmlib
+    - kobo-worker
 
 # Packages that should always be installed on a Fedora machine
 - name: Package install - rpmmacros
