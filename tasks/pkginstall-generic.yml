@@ -232,6 +232,7 @@
     - python-virtualenv
     - python-virtualenvwrapper
     - python-nose
+    - python-mock
     - python-demjson
     - python-boto
     - python-sphinx
@@ -275,6 +276,7 @@
     - python3-ipython-gui
     - python3-ipython-sphinx
     - python3-pygments
+    - python3-mock
     - xfsdump
     - xfsprogs
     - libguestfs
