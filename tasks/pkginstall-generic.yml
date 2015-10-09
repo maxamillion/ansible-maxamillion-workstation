@@ -14,7 +14,6 @@
   dnf: pkg={{ item }} state=installed
   with_items:
     - firefox
-    - dwb
     - NetworkManager-tui
     - levien-inconsolata-fonts
     - terminus-fonts
@@ -414,6 +413,7 @@
     - kobo-hub
     - kobo-rpmlib
     - kobo-worker
+    - kbd
 
 # Packages that should always be installed on a Fedora machine
 - name: Package install - rpmmacros
