@@ -3,13 +3,8 @@
   with_items:
     - powertop
 
-- name: Install systemd unit for powertop autotune
-  copy:
-    src: files/powertop-autotune.service
-    dest: /etc/systemd/system/powertop-autotune.service
-
-- name: Start and enable powertop-autotune.service
+- name: Start and enable powertop.service
   service:
-    name: powertop-autotune
+    name: powertop
     state: started
     enabled: yes
