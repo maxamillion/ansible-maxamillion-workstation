@@ -416,6 +416,7 @@
     - kobo-rpmlib
     - kobo-worker
     - kbd
+    - pandoc
 
 # Packages that should always be installed on a Fedora machine
 - name: Package install - rpmmacros
