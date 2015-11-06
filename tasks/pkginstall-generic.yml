@@ -421,6 +421,7 @@
     - kobo-worker
     - kbd
     - pandoc
+    - binwalk
 
 # Packages that should always be installed on a Fedora machine
 - name: Package install - rpmmacros
