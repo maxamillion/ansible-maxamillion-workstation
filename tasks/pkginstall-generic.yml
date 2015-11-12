@@ -422,6 +422,9 @@
     - kbd
     - pandoc
     - binwalk
+    - imagefactory
+    - imagefactory-plugins-Docker
+    - imagefactory-plugins-IndirectionCloud
 
 # Packages that should always be installed on a Fedora machine
 - name: Package install - rpmmacros
