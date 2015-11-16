@@ -34,6 +34,8 @@
     - geany-plugins-autoclose
     - geany-plugins-defineformat
     - geany-plugins-scope
+    - pulseaudio-module-bluetooth
+    - paman
 
 - name: Install MATE for use with i3
   dnf: pkg={{item}} state=installed
