@@ -425,6 +425,8 @@
     - imagefactory
     - imagefactory-plugins-Docker
     - imagefactory-plugins-IndirectionCloud
+    - duplicity
+    - ncftp
 
 # Packages that should always be installed on a Fedora machine
 - name: Package install - rpmmacros
