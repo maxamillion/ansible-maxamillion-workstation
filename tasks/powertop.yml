@@ -1,5 +1,5 @@
 - name: Verify powertop is installed
-  dnf: pkg={{item}} state=installed
+  dnf: name={{item}} state=installed
   with_items:
     - powertop
 

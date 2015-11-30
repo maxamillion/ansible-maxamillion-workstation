@@ -1,7 +1,7 @@
 # - install packages for other functionality not in minimal
 #   RHEL/CentOS/Fedora installs
 - name: Pre Req Packages
-  dnf: pkg={{ item }} state=installed
+  dnf: name={{ item }} state=installed
   with_items:
     - python-keyczar
     - yum-utils
@@ -11,7 +11,7 @@
 
 # Packages that should always be installed on a Fedora machine
 - name: Package install - Generic
-  dnf: pkg={{ item }} state=installed
+  dnf: name={{ item }} state=installed
   with_items:
     - firefox
     - NetworkManager-tui
@@ -115,7 +115,7 @@
     - rubygem-gherkin
     - rubygem-cucumber
     - rubygem-aws-sdk
-    - rubygem-wirble
+#    - rubygem-wirble
     - rubygem-gem2rpm
     - rubygem-openstack
     - rubygem-puppet-lint
@@ -318,7 +318,7 @@
     - xsel
     - xclip
     - docker
-    - docker-storage-setup
+#    - docker-storage-setup
     - system-storage-manager
     - libmtp
     - libmtp-examples
@@ -430,7 +430,7 @@
 
 # Packages that should always be installed on a Fedora machine
 - name: Package install - rpmmacros
-  dnf: pkg={{ item }} state=installed
+  dnf: name={{ item }} state=installed
   with_items:
     - perl-macros
     - ocaml-srpm-macros

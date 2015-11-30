@@ -1,5 +1,5 @@
 - name: Install package list - i3
-  dnf: pkg={{item}} state=installed
+  dnf: name={{item}} state=installed
   with_items:
     - i3
     - i3-ipc
@@ -39,7 +39,7 @@
     - blueman
 
 - name: Install MATE for use with i3
-  dnf: pkg={{item}} state=installed
-  with_items:
-    - "@mate-desktop-environment"
-    - "@mate-applications"
+  dnf: name="@MATE Desktop" state=installed
+
+- name: Install MATE Applications for use with i3
+  dnf: name="@MATE Applications" state=installed
