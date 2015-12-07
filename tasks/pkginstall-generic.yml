@@ -140,6 +140,7 @@
     - whois
     - tito
     - htop
+    - glances
     - dstat
     - nmon
     - powertop
