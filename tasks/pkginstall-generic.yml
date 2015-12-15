@@ -13,7 +13,6 @@
 - name: Package install - Generic
   dnf: name={{ item }} state=installed
   with_items:
-    - firefox
     - NetworkManager-tui
     - levien-inconsolata-fonts
     - terminus-fonts
