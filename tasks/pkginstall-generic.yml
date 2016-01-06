@@ -428,6 +428,7 @@
     - duplicity
     - ncftp
     - letsencrypt
+    - ditaa
 
 # Packages that should always be installed on a Fedora machine
 - name: Package install - rpmmacros
