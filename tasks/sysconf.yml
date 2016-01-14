@@ -8,7 +8,7 @@
     state: started
     enabled: yes
 - name: set tuned profiles
-  command: /sbin/tuned-adm profile powersave
+  command: /usr/sbin/tuned-adm profile balanced
 - name: Config krb5
   copy:
     src: files/sys_conf/krb5.conf
