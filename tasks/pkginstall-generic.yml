@@ -278,6 +278,7 @@
     - python3-ipython-gui
     - python3-ipython-sphinx
     - python3-pygments
+    - python3-nose
     - python3-mock
     - python3-pillow
     - python3-pillow-devel
