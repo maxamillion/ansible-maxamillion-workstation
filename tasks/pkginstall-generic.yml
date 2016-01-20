@@ -366,7 +366,6 @@
     - fuse-python
     - xournal
     - httpie
-    - python3-httpie
     - authconfig
     - authconfig-gtk
     - rfkill
