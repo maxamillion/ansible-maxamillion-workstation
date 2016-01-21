@@ -208,6 +208,7 @@
     - scapy
     - pyp2rpm
     - pykickstart
+    - pytest
 #    - python-kickstart
 #    - python-productmd
     - python-celery
