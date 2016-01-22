@@ -194,6 +194,8 @@
     - icedtea-web
     - pssh
     - pv
+    - scala
+    - sbt
     - pypy
     - pyrasite
     - Cython
