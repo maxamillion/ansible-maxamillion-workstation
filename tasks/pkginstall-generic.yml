@@ -65,9 +65,9 @@
     - virt-top
     - krb5-workstation
     - krb5-auth-dialog
+    - emacs
     - vim-enhanced
     - vim-jedi
-    - vim-powerline
     - python-jedi
     - tmux
     - tmuxinator
