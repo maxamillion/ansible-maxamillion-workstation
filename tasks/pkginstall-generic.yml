@@ -67,6 +67,8 @@
     - krb5-auth-dialog
     - vim-enhanced
     - vim-jedi
+    - vim-powerline
+    - python-jedi
     - tmux
     - tmuxinator
     - screen
