@@ -323,6 +323,8 @@
     - xsel
     - xclip
     - docker
+    - xdg-app
+    - xdg-app-builder
 #    - docker-storage-setup
     - system-storage-manager
     - libmtp
