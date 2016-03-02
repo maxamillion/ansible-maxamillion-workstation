@@ -92,6 +92,8 @@
     - rpm-compare-req
     - rpmconf
     - rpmgrill
+    - rpmlint
+    - ShellCheck
     - mock
     - golang
 #    - golang-vim
