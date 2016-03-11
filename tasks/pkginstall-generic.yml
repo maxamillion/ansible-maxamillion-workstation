@@ -324,6 +324,7 @@
     - lsscsi
     - xsel
     - xclip
+    - runc
     - docker
     - xdg-app
     - xdg-app-builder
