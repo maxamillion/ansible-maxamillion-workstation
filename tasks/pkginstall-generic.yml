@@ -208,6 +208,7 @@
     - python3-devel
     - pylint
     - pyflakes
+    - python-mccabe
     - bpython
     - jython
     - scapy
@@ -275,6 +276,7 @@
     - python3-bpython
     - python3-pylint
     - python3-pyflakes
+    - python3-mccabe
     - python3-pip
     - python3-pep8
     - python3-flake8
