@@ -11,11 +11,13 @@ Install `ansible` and `git`
 
     dnf -y install ansible git
 
-Clone this repo and run the ansible-playbook
+Clone this repo and run the ansible-playbook (run the `bootstrap-fedora` if
+running Fedora 23 or later).
 
     git clone https://github.com/maxamillion/ansible-maxamillion-workstation.git
     cd ansible-maxamillion-workstation
-    ansible-playbook workstation.yml -i inventory.txt 
+    ansible-playbook bootstrap-fedora.yml -i inventory.txt
+    ansible-playbook workstation.yml -i inventory.txt
 
 ### Notes
 There are no dotfiles or configs included in this ansible-playbook.
