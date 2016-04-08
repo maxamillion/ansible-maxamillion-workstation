@@ -256,7 +256,6 @@
     - python-clientform
     - python-requests
     - python-pygments
-    - python-pelican
     - pyside-tools
     - python3
     - python3-django
