@@ -328,6 +328,8 @@
     - xclip
     - runc
     - docker
+    - atomic
+    - atomic-reactor
     - xdg-app
     - xdg-app-builder
 #    - docker-storage-setup
