@@ -53,6 +53,7 @@
     - fedora-review-tests
     - fedora-arm-installer
     - fedmsg
+    - python-fedmsg-meta-fedora-infrastructure
     - readline-devel
     - nmap
     - nmap-ncat
