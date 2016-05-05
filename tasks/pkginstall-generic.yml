@@ -97,6 +97,9 @@
     - ShellCheck
     - mock
     - golang
+    - gofed
+    - gofed-scan
+    - gofed-build
 #    - golang-vim
     - gotags
     - golang-gotype
