@@ -454,6 +454,7 @@
     - hovercraft
     - feh
     - surl
+    - picocom
     - redis
 
 # Packages that should always be installed on a Fedora machine
