@@ -13,6 +13,9 @@
 - name: Package install - Generic
   dnf: name={{ item }} state=installed
   with_items:
+    - bash
+    - bash-completion
+    - bashdb
     - NetworkManager-tui
     - levien-inconsolata-fonts
     - terminus-fonts
