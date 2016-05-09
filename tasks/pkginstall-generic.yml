@@ -81,6 +81,7 @@
     - gitstats
     - gitflow
     - git-cola
+    - git-xcleaner
     - tig
     - subversion
     - mercurial
