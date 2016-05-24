@@ -34,6 +34,7 @@
     - gnu-free-mono-fonts
     - gnu-free-serif-fonts
     - terminus-fonts
+    - overpass-fonts
     - xorg-x11-apps
     - elinks
     - w3m
