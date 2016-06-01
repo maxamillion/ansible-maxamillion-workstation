@@ -252,6 +252,7 @@
     - python-demjson
     - python-boto
     - python-sphinx
+    - python-sphinx_rtd_theme
     - python-sphinx-doc
     - python-nikola
     - python-nikola-doc
@@ -290,6 +291,7 @@
     - python3-flake8
     - python3-autopep8
     - python3-sphinx
+    - python3-sphinx_rtd_theme
     - python3-ipython
     - python3-ipython-gui
     - python3-ipython-sphinx
@@ -338,8 +340,8 @@
     - docker
     - atomic
     - atomic-reactor
-    - xdg-app
-    - xdg-app-builder
+    - flatpak
+    - flatpak-builder
 #    - docker-storage-setup
     - system-storage-manager
     - libmtp
