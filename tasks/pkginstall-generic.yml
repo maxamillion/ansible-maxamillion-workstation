@@ -338,11 +338,12 @@
     - xclip
     - runc
     - docker
+    - docker-vim
+    - docker-storage-setup
     - atomic
     - atomic-reactor
     - flatpak
     - flatpak-builder
-#    - docker-storage-setup
     - system-storage-manager
     - libmtp
     - libmtp-examples
