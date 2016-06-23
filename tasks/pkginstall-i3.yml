@@ -9,6 +9,9 @@
     - dunst
     - nitrogen
     - terminology
+    - roxterm
+    - st
+    - gnome-terminal
     - firefox
     - icecat
     - midori
