@@ -1,6 +1,6 @@
 # laptop.yml
 #
-# Ansible playbook for configuring a laptop the way I like it and a little for 
+# Ansible playbook for configuring a laptop the way I like it and a little for
 # work.
 #
 #
@@ -15,6 +15,7 @@
     - include: tasks/pkginstall-i3.yml
     - include: tasks/groupinstall.yml
     - include: tasks/sysconf.yml
+      tags: sysconf
     - include: tasks/userconf.yml
       tags:
         - userconf
