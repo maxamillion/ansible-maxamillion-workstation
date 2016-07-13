@@ -17,6 +17,7 @@
     - bash-completion
     - bashdb
     - mosh
+    - NetworkManager
     - NetworkManager-tui
     - levien-inconsolata-fonts
     - terminus-fonts
@@ -96,7 +97,6 @@
     - rpmdepsize
     - rpmorphan
     - rpmreaper
-    - rpm-compare-req
     - rpmconf
     - rpmgrill
     - rpmlint
@@ -106,7 +106,6 @@
     - gofed
     - gofed-scan
     - gofed-build
-#    - golang-vim
     - gotags
     - golang-gotype
     - golang-godoc
@@ -127,7 +126,7 @@
     - rubygem-gherkin
     - rubygem-cucumber
     - rubygem-aws-sdk
-#    - rubygem-wirble
+    - rubygem-wirb
     - rubygem-gem2rpm
     - rubygem-openstack
     - rubygem-puppet-lint
@@ -140,18 +139,17 @@
     - man-db
     - man-pages
     - txt2man
-      #    - kernel-doc
     - kernel-devel
     - kernel-headers
     - kernel-rpm-macros
     - perf
-#    - dbus-tools
     - mash
     - rsync
     - wget
     - whois
     - tito
     - htop
+    - collectl
     - glances
     - dstat
     - nmon
@@ -169,24 +167,6 @@
     - euca2ools
     - ansible
     - puppet
-#    - syntastic
-#    - syntastic-cpp
-#    - syntastic-sh
-#    - syntastic-ruby
-#    - syntastic-python
-#    - syntastic-lua
-#    - syntastic-javascript
-#    - syntastic-cucumber
-#    - syntastic-vala
-#    - syntastic-c
-#    - syntastic-html
-#    - syntastic-puppet
-#    - syntastic-lisp
-#    - syntastic-go
-#    - syntastic-asciidoc
-#    - syntastic-json
-#    - syntastic-vim
-#    - syntastic-yaml
     - sbcl
     - rubygem-yard
     - rubygem-yard-doc
@@ -225,9 +205,10 @@
     - pyp2rpm
     - pykickstart
     - pytest
-#    - python-kickstart
-#    - python-productmd
+    - python-kickstart
+    - python-productmd
     - python-celery
+    - python-pandas
     - python-django
     - python-docs
     - python-docs-info
@@ -255,9 +236,6 @@
     - python-sphinx
     - python-sphinx_rtd_theme
     - python-sphinx-doc
-    - python-nikola
-    - python-nikola-doc
-    - python-nikola-extras
     - python-passlib
     - python-pyside
     - python-argcomplete
@@ -269,14 +247,15 @@
     - python-pygments
     - pyside-tools
     - python3
+    - python3-pandas
     - python3-django
     - python3-celery
     - python3-docs
     - python3-virtualenv
-#    - python3-kickstart
-#    - python3-productmd
-    - python3-nikola
-    - python3-nikola-extras
+    - python3-kickstart
+    - python3-productmd
+#    - python3-nikola
+#    - python3-nikola-extras
     - python3-bottle
     - python3-click
     - python3-flask
@@ -310,8 +289,6 @@
     - libguestfs-xfs
     - pkgwat
     - fedfind
-    #- yum-plugin-security # Merged into mainline yum in F19
-    #- yum-plugin-fastestmirror # Switch to dnf Fedora 22/Rawhide
     - autoconf
     - automake
     - cmake
@@ -340,7 +317,6 @@
     - runc
     - docker
     - docker-vim
-    - docker-storage-setup
     - atomic
     - atomic-reactor
     - flatpak
@@ -369,7 +345,7 @@
     - tpp
     - copr-cli
     - copr-cli-doc
-#- copr-doc
+    - copr-doc
     - zabbix
     - psacct
     - units
@@ -398,7 +374,7 @@
     - rpm-ostree
     - rpm-ostree-toolbox
     - lorax
-      #- pungi
+    - pungi
     - vagrant
     - vagrant-libvirt
     - vagrant-doc
