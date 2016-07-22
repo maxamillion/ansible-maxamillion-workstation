@@ -347,7 +347,6 @@
     - tpp
     - copr-cli
     - copr-cli-doc
-    - copr-doc
     - zabbix
     - psacct
     - units
