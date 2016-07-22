@@ -45,7 +45,7 @@
     - blueman
 
 - name: Install MATE for use with i3
-  dnf: name="@MATE Desktop" state=installed
+  dnf: name="@mate-desktop" state=installed
 
 - name: Install MATE Applications for use with i3
-  dnf: name="@MATE Applications" state=installed
+  dnf: name="@mate-applications" state=installed
