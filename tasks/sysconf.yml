@@ -27,8 +27,8 @@
     group: mock
     mode: 0775
     state: directory
-- name: disable ssh
-    service:
+- name: disable sshd
+  service:
     name: sshd
     state: stopped
     enabled: no
