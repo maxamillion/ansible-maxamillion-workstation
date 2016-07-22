@@ -5,7 +5,8 @@ and configuration
 
 ## Usage
 
-Install [Fedora Server](https://getfedora.org/en/server/)
+Install Fedora using the Minimal option from the [Fedora
+netinst](https://download.fedoraproject.org/pub/fedora/linux/releases/24/Everything/x86_64/iso/).
 
 Install `ansible` and `git`
 
