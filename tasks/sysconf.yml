@@ -43,7 +43,7 @@
     permanent: no
     state: disabled
 - name: enable docker
-    service:
+  service:
     name: docker
     state: started
     enabled: yes
