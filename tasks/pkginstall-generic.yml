@@ -413,6 +413,7 @@
     - dcfldd
     - fwupd
     - fwupdate
+    - libsmbios
     - rng-tools
     - kobo
     - kobo-admin
