@@ -205,6 +205,7 @@
     - RunSnakeRun
     - python3-Cython
     - python2-devel
+    - python2-pelican
     - python3-devel
     - pylint
     - pyflakes
