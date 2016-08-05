@@ -257,7 +257,10 @@
     - python-requests
     - python-pygments
     - pyside-tools
+    - python-nikola-docs
     - python3
+    - python3-nikola
+    - python3-nikola-extras
     - python3-pandas
     - python3-django
     - python3-celery
@@ -448,6 +451,8 @@
     - surl
     - picocom
     - redis
+    - libtaskotron
+    - testcloud
 
 # Packages that should always be installed on a Fedora machine
 - name: Package install - rpmmacros
