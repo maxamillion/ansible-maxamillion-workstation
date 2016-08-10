@@ -216,6 +216,8 @@
     - pyp2rpm
     - pykickstart
     - pytest
+    - python-rope
+    - python-ropemode
     - python-kickstart
     - python-productmd
     - python-celery
