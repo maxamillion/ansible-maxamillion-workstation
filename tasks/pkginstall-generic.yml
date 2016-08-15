@@ -216,6 +216,7 @@
     - pyp2rpm
     - pykickstart
     - pytest
+    - python-straight-plugin
     - python-rope
     - python-ropemode
     - python-kickstart
@@ -261,6 +262,7 @@
     - pyside-tools
     - python-nikola-docs
     - python3
+    - python3-straight-plugin
     - python3-nikola
     - python3-nikola-extras
     - python3-pandas
