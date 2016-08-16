@@ -94,6 +94,7 @@
     - gitflow
     - git-cola
     - git-xcleaner
+    - git-cal
     - tig
     - subversion
     - mercurial
