@@ -315,6 +315,8 @@
     - gcc-c++
     - gcc-go
     - gdb
+    - gdb-doc
+    - openssl-devel
     - libtool
     - intltool
     - liveusb-creator
@@ -367,10 +369,6 @@
     - psacct
     - units
     - qpdf
-    - gcc
-    - gcc-c++
-    - gdb
-    - gdb-doc
     - binutils
     - pkgconfig
     - valgrind
