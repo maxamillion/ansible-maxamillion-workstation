@@ -8,6 +8,12 @@
     - python-simplejson
     - libselinux-python
     - python-libcloud
+    - ykpers
+    - libyubikey
+    - gnupg
+    - gnupg2-smime
+    - pcse-lite
+    - pcse-lite-ccid
 
 # Packages that should always be installed on a Fedora machine
 - name: Package install - Generic
@@ -456,6 +462,12 @@
     - redis
     - libtaskotron
     - testcloud
+    - scap-workbench
+    - openscap
+    - openscap-scanner
+    - openscap-utils
+    - openscap-containers
+    - openscap-daemon
 
 # Packages that should always be installed on a Fedora machine
 - name: Package install - rpmmacros
