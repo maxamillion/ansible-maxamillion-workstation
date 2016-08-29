@@ -451,6 +451,7 @@
     - imagefactory-plugins-IndirectionCloud
     - duplicity
     - ncftp
+    - lftp
     - letsencrypt
     - ditaa
     - figlet
