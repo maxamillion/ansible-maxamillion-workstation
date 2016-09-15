@@ -2,3 +2,6 @@
   dnf: name=$item state=removed
   with_items:
     - rhythmbox
+
+
+# vim:ft=ansible:

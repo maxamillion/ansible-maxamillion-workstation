@@ -3,3 +3,5 @@
   with_items:
     - "@fedora-packager"
     - "@virtualization"
+
+# vim:ft=ansible:

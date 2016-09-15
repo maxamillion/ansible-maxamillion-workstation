@@ -19,3 +19,5 @@
     - include: tasks/userconf.yml
       tags:
         - userconf
+
+# vim:ft=ansible:

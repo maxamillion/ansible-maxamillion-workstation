@@ -50,3 +50,6 @@
 
 - name: Install MATE Applications for use with i3
   dnf: name="@mate-applications" state=installed
+
+
+# vim:ft=ansible:
