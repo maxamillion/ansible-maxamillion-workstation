@@ -159,6 +159,7 @@
     - kernel-headers
     - kernel-rpm-macros
     - perf
+    - ngrep
     - mash
     - rsync
     - wget
