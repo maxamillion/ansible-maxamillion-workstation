@@ -44,6 +44,7 @@
     - pulseaudio-module-bluetooth
     - paman
     - blueman
+    - clementine
 
 - name: Install MATE for use with i3
   dnf: name="@mate-desktop" state=installed
