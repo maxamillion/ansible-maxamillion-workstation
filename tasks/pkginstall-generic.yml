@@ -335,6 +335,7 @@
     - testdisk
     - baobab
     - tcpdump
+    - wireshark-cli
     - iptraf-ng
     - recode
     - httpd-tools
