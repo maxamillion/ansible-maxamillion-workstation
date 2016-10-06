@@ -45,6 +45,8 @@
     - paman
     - blueman
     - clementine
+    - ImageMagick
+    - ImageMagick-devel
 
 - name: Install MATE for use with i3
   dnf: name="@mate-desktop" state=installed
