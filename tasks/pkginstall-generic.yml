@@ -253,6 +253,7 @@
     - python-virtualenvwrapper
     - python-nose
     - python-mock
+    - python-flexmock
     - python-demjson
     - python-boto
     - python-sphinx
@@ -305,6 +306,7 @@
     - python3-pygments
     - python3-nose
     - python3-mock
+    - python3-flexmock
     - python3-pillow
     - python3-pillow-devel
     - python3-pelican
