@@ -394,6 +394,7 @@
     - fuse-python
     - xournal
     - httpie
+    - jq
     - authconfig
     - authconfig-gtk
     - rfkill
