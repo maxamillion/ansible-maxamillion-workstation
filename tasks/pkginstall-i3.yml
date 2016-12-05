@@ -48,6 +48,7 @@
     - ImageMagick
     - ImageMagick-devel
     - transmission
+    - transmission-gtk
 
 - name: Install MATE for use with i3
   dnf: name="@mate-desktop" state=installed
