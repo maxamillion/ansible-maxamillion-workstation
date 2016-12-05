@@ -47,6 +47,7 @@
     - clementine
     - ImageMagick
     - ImageMagick-devel
+    - transmission
 
 - name: Install MATE for use with i3
   dnf: name="@mate-desktop" state=installed

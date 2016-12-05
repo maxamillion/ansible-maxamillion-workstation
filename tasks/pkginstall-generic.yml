@@ -476,6 +476,7 @@
     - openscap-containers
     - openscap-daemon
     - speedtest-cli
+    - transmission-cli
 
 # Packages that should always be installed on a Fedora machine
 - name: Package install - rpmmacros
