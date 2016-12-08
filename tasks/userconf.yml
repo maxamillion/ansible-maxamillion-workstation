@@ -3,8 +3,7 @@
     name: "{{non_root_user}}"
     home: /home/{{non_root_user}}
     append: yes
-    groups: mock
-#   groups: mock,dockerroot
+    groups: mock,dialout,lock
 
 - name: Allow non-root user access to libvirt via polkit
   template:
