@@ -49,6 +49,8 @@
     - ImageMagick-devel
     - transmission
     - transmission-gtk
+    - arduino
+    - ino
 
 - name: Install MATE for use with i3
   dnf: name="@mate-desktop" state=installed
