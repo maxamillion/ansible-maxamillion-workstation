@@ -408,6 +408,7 @@
     - vagrant-doc
     - vagrant-libvirt-doc
     - xz
+    - libicns-utils
     - task
     - bugwarrior
     - groovy
