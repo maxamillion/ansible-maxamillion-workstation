@@ -28,6 +28,7 @@
     - dnf-plugins-extras-show-leaves
     - tracer
     - bash
+    - bash-doc
     - bash-completion
     - bashdb
     - mosh
