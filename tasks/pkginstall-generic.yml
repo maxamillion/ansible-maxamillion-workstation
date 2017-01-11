@@ -481,6 +481,7 @@
     - transmission-cli
     - dejangu
     - tcllib
+    - asciinema
 
 # Packages that should always be installed on a Fedora machine
 - name: Package install - rpmmacros
