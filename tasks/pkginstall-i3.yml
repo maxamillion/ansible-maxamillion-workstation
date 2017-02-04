@@ -51,6 +51,9 @@
     - transmission-gtk
     - arduino
     - ino
+    - hplip-gui
+    - hplip-common
+    - hplip-libs
 
 - name: Install MATE for use with i3
   dnf: name="@mate-desktop" state=installed

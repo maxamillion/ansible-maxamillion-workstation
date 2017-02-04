@@ -482,6 +482,10 @@
     - dejangu
     - tcllib
     - asciinema
+    - rust
+    - rust-doc
+    - rust-gdb
+    - cargo
 
 # Packages that should always be installed on a Fedora machine
 - name: Package install - rpmmacros
