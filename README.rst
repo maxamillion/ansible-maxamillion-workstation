@@ -1,0 +1,1 @@
+This repo has moved `here <https://github.com/maxamillion/maxible>`_.
